@@ -12,21 +12,28 @@ a{
     display: block;
 }
 
-button {
-  padding: 0;
+.filter__elem {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
   border: none;
   font: inherit;
   color: inherit;
   background-color: transparent;
+  letter-spacing: 0.03em;
+  line-height: 1.62;
 }
 
+
 .button .portfolio{
+    padding: 0;
     background-color: var(--bcg-color);
     color: var(--basic-color);
 }
 
 .portfolio{
-    min-width: 0;
+    
     background-color: var(--bcg-color);
     color: var(--basic-color);
 }
@@ -52,7 +59,7 @@ button {
 }
 
 .filter-item .item  {
-    width: calc ((100% - 60px) / 3);
+    width: calc((100% - 60px) / 3);
     margin-right: 30px; 
   }
 
@@ -65,16 +72,16 @@ button {
 }
 
 .card-content{
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 24px;
+    padding-right: 24px;
     padding-bottom: 20px;
     padding-top: 20px;
 
-    /* background: #FFFFFF;
+    background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;  */
+    border-bottom-left-radius: 5px;  
     } 
 
 .project{
